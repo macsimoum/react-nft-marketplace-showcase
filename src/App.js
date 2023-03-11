@@ -33,7 +33,10 @@ const App = () => {
       />
       <Download />
 
-      <div className="px-4 py-4 justify-center items-center bg-primary flex-col text-center banner04">
+      <div
+        onClick={() => window.open("https://github.com/macsimoum")}
+        className="px-4 py-4 justify-center items-center bg-primary flex-col text-center banner04"
+      >
         <p className={`${styles.pText} ${styles.whiteText} font-extrabold`}>
           ARTIST:
           <span className="bold">EZZA</span>
